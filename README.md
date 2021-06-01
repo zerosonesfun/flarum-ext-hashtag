@@ -1,6 +1,6 @@
 # Hashtag
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/justoverclock/flarum-ext-hashtag.svg)](https://packagist.org/packages/justoverclock/flarum-ext-hashtag) [![Total Downloads](https://img.shields.io/packagist/dt/justoverclock/flarum-ext-hashtag.svg)](https://packagist.org/packages/justoverclock/flarum-ext-hashtag)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://poser.pugx.org/justoverclock/flarum-ext-hashtag/v)](//packagist.org/packages/justoverclock/flarum-ext-hashtag) [![Total Downloads](https://poser.pugx.org/justoverclock/flarum-ext-hashtag/downloads)](//packagist.org/packages/justoverclock/flarum-ext-hashtag) [![Support Me](https://img.shields.io/badge/Donate-Support%20My%20Work-orange)](https://github.com/sponsors/justoverclockl)
 
 A [Flarum](http://flarum.org) extension. Replace hashtags with a link that search into Flarum
 
