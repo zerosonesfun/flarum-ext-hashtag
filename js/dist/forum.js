@@ -114,11 +114,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_app__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  var regex = /#[^\s!@#$%^&*()=+.\/,\[{\]};:'"?><]+/g;
+  var regex = /(?![^<]*>)#[^\s!@#$%^&*()=+.\/,\[{\]};:'"?><]+/g;
   var p = this.$('.Post-body');
   var baseurl = flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.forum.attribute('baseUrl');
   p.html = p.html(p.html().replace(regex, function (match) {
-    return "<a href=\"" + baseurl + "/?q=" + match + "\" class=\"hashlink\" title=\"Find more post with this hashtag\">" + match + "</a>";
+    return "<a href=\"" + baseurl + "/?q=" + match + "\" class=\"hasht\" title=\"Search this hashtag into Flarum\">" + match + "</a>";
   }));
 });
 
