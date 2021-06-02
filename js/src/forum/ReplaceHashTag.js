@@ -2,7 +2,7 @@ import app from 'flarum/app';
 
 export default function () {
 
-  const regex = /(?<!html)#[^\s!@#$%^&*()=+.\/,\[{\]};:'"?><]+/g
+  const regex = /(?<!https?:\/\/\S*)#[^\s!@#$%^&*()=+.\/,\[{\]};:'"?><]+/g;
   const p = this.$('.Post-body');
   const baseurl = app.forum.attribute('baseUrl');
 
