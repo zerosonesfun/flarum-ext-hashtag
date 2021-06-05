@@ -2,8 +2,8 @@ import app from 'flarum/app';
 
 export default function () {
 
-  const regex = /(?<!https?:\/\/\S*)#[^\s!@#$%^&*()=+.\/,\[{\]};:'"?><]+/g;
-  const p = this.$('.Post-body');
+  const regex = /(?<=\s|^)#(\w*[A-Za-z_]+\w*)/g;
+  const p = this.$('p');
   const baseurl = app.forum.attribute('baseUrl');
 
   //rimuoviamo il carattere # utilizzando match.slice nel link
