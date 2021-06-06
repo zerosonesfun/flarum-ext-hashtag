@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "autolinker": "^3.14.3",
     "flarum": "^0.1.0-beta.16",
     "flarum-webpack-config": "^0.1.0-beta.10",
     "hashtag-regex": "^2.1.0",
