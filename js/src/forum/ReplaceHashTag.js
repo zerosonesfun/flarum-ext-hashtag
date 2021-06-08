@@ -18,10 +18,8 @@ export default function () {
       $(element)
         .find('a.hasht')
         .click((e) => {
-          console.log('hasht click');
           if (e.ctrlKey || e.metaKey || e.which === 2) return;
           e.preventDefault();
-          console.log('Will route');
           m.route.set(e.target.href);
         });
     }, 1);
