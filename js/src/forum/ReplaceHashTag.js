@@ -12,7 +12,7 @@ export default function () {
     $(element).html(
       $(element)
         .html()
-        .replace(regex, (match) => `<a href="${discussionsUrl}/?q=${match.slice(1)}" class="hasht" title="${tooltip}">${match}</a>`)
+        .replace(regex, (match) => `<a href="${discussionsUrl}?q=${match.slice(1)}" class="hasht" title="${tooltip}">${match}</a>`)
     );
   });
 }
