@@ -1,4 +1,4 @@
-import app from 'flarum/app';
+import app from 'flarum/forum/app';
 
 export default function () {
   const regex = /(?<=\s|^)#(\w*[A-Za-z_]+\w*)/g;
