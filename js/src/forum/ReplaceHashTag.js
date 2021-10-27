@@ -1,14 +1,11 @@
 import app from 'flarum/forum/app';
 
 export default function () {
-
-  const regex = /(^|\s)#(\p{L}+)/gu;
+  const regex = /(^|\s)#(\p{L}*\p{S}*\p{M}*)/gu;
   const p = this.$('p');
   const discussionsUrl = app.route('index');
   const tooltip = app.translator.trans('justoverclock-hashtag.forum.post.hashtag_link_tooltip');
 
-  // rimuoviamo il carattere # utilizzando match.slice nel link
-  // thanks to Nearata for this fix
   p.each((index, element) => {
     $(element).html(
       $(element)
