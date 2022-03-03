@@ -1,6 +1,6 @@
 {
-  "name": "justoverclock/flarum-ext-hashtag",
-  "description": "Replace hashtags with a link that search into Flarum",
+  "name": "zerosonesfun/flarum-ext-hashtag",
+  "description": "Hashtagging. Billy's personal version.",
   "keywords": [
     "flarum",
       "hashtag"
@@ -15,28 +15,25 @@
   },
   "authors": [
     {
-      "name": "Marco Colia",
-      "email": "info@flarum.it",
-      "role": "Developer"
+      "name": "Billy Wilcosky",
+      "email": "billy@wilcosky.com",
+      "role": "Creator"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Justoverclock\\Hashtag\\": "src/"
+      "ZerosOnesFun\\Hashtag\\": "src/"
     }
   },
   "extra": {
     "flarum-extension": {
-      "title": "Hashtag",
-      "category": "",
+      "title": "Hashtags",
+      "category": "features",
       "icon": {
         "name": "fas fa-hashtag",
-        "backgroundColor": "green",
-        "color": "white"
+        "backgroundColor": "#ddd",
+        "color": "#000"
       }
-    },
-    "flagrow": {
-      "discuss": ""
     }
   }
 }
